@@ -1,3 +1,14 @@
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    filter: blur(6px);
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+    opacity: 0.9;
+}
 .contenedor1{
     display: flex;
     flex-direction: column;
@@ -6,12 +17,10 @@
     align-items: center;
     text-align: center;
     background-color: rgba(213, 216, 230, 0.367);
-    width: 200%;
+    width: 100%;
     color:#ffffff;
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-bottom: 10%;
     border-radius: 5%;
+    
 }
 .boton{
     -webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
@@ -40,6 +49,10 @@ label,h3,h5,h4,h1{
 h1{
     font-size: 70px;
     -webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
+    margin-bottom: -10px;
+}
+h3{
+    margin-bottom: -10px;
 }
 .orden{
     display: flex;
