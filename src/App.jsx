@@ -36,6 +36,7 @@ function App() {
   }
   return (
     <>
+      <video src="./src/assets/video.mp4" autoplay="true" muted="true" loop="true" ></video>
       <div className="contenedor1" >
         <h1>Bienvenido!</h1>
         <h3>Ingrese las coordenadas de sus dos puntos notables</h3>
