@@ -23,6 +23,17 @@ function App() {
     console.log(funcion);
     document.getElementById("mostrar").innerHTML = "y="+a+"x+"+b;
   }
+  const limpiar=()=>{
+    const x1=document.getElementById("x1").value=("");
+    document.getElementById("x1").innerHTML = x1;
+    const y1=document.getElementById("y1").value=("");
+    document.getElementById("y1").innerHTML = y1;
+    const x2=document.getElementById("x2").value=("");
+    document.getElementById("x2").innerHTML = x2;    
+    const y2=document.getElementById("y2").value=("");
+    document.getElementById("y2").innerHTML = y2;
+
+  }
   return (
     <>
       <div className="contenedor1" >
@@ -61,8 +72,11 @@ function App() {
             </div>
           </div>
           <br></br>
-          <Button variant="dark" className='boton'type="submit" value={"Encontrar función!"} onClick={calcular}>Encontrar Función</Button>
-          <br></br>
+          <div className="movida"> 
+            <Button variant="dark" className='boton'type="submit" value={"Encontrar función!"} onClick={calcular}>Encontrar Función</Button>
+            <br></br>
+            <Button variant="dark" className='boton'type="submit" value={"Encontrar función!"} onClick={limpiar}>limpiar</Button>
+          </div>
         </form>
         <h4 id="mostrar"></h4>
       </div>
