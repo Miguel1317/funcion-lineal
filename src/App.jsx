@@ -75,7 +75,7 @@ function App() {
           <div className="movida"> 
             <Button variant="dark" className='boton'type="submit" value={"Encontrar función!"} onClick={calcular}>Encontrar Función</Button>
             <br></br>
-            <Button variant="dark" className='boton'type="submit" value={"Encontrar función!"} onClick={limpiar}>limpiar</Button>
+            <Button variant="dark" className='boton'type="submit" value={"Encontrar función!"} onClick={limpiar}>Limpiar</Button>
           </div>
         </form>
         <h4 id="mostrar"></h4>
