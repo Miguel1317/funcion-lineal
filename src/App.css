@@ -4,7 +4,7 @@ video{
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    filter: blur(6px);
+    filter: blur(10px);
     transform: translateX(calc((100% - 100vw) / 2));
     z-index: -2;
     opacity: 0.9;
@@ -16,7 +16,7 @@ video{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(213, 216, 230, 0.367);
+    background-color: rgba(0, 0, 0, 0.623);
     width: 100%;
     color:#ffffff;
     border-radius: 5%;
@@ -48,7 +48,6 @@ label,h3,h5,h4,h1{
 }
 h1{
     font-size: 70px;
-    -webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
     margin-bottom: -10px;
 }
 h3{
