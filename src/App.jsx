@@ -34,6 +34,7 @@ function App() {
     document.getElementById("y2").innerHTML = y2;
 
   }
+
   return (
     <>
       <video src="./src/assets/video.mp4" autoplay="true" muted="true" loop="true" ></video>
@@ -76,7 +77,7 @@ function App() {
           <div className="movida"> 
             <Button variant="dark" className='boton'type="submit" value={"Encontrar función!"} onClick={calcular}>Encontrar Función</Button>
             <br></br>
-            <Button variant="dark" className='boton'type="submit" value={"Encontrar función!"} onClick={limpiar}>Limpiar</Button>
+            <Button variant="dark" className='boton'type="submit" value={"Encontrar función!"} onClick={limpiar}>limpiar</Button>
           </div>
         </form>
         <h4 id="mostrar"></h4>
