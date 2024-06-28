@@ -23,7 +23,6 @@ video{
     
 }
 .boton{
-    -webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
     transition: 1s;
     border-color: black;
     border-style: solid;
